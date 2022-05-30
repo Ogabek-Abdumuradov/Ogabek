@@ -1,0 +1,8 @@
+git clone https://notabug.org/DC_IT_ASTUTE/Xushnud_Boyjigitov.git
+git config --list
+git config --global user.name Xushnud_Boyjigitov
+git config --global user.name Xushnud_Boyjigitov
+git add *
+git commit -m "biror o'zgarish nomi"
+git remote -v
+git push origin master

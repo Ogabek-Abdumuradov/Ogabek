@@ -1,2 +1,3 @@
-# Ogabek
+# Ogabek_Abdumuradov
+
 Darslar
