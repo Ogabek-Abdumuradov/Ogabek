@@ -12,8 +12,17 @@ else:
 '''
 
 royxat = [1, 2, 'so`z', ['Og`abek', 'jiloviq'], 45, True, False]
-print(royxat)
-
+l2 = list('salom')
+l3 = list((1, 2, 3))
+l4 = [i for i in 'salom']
+l5 = [i for i in 'salom dunyo' if i != ' ' and i != 'd']
+l6 = [i for i in 'salom dunyo' if i not in ['a', 'e', 'i', 'o', 'u', ' ']]
+l7 = list(range(0, 11))
+for k in range(1, 3):
+    print(f'Tashqi sanash #{k}')    
+print(royxat, l2, l3, l4, l5, l6, l7, sep='\n')
+for j in range(1, 3):
+    print(f'\t range bilan sanash #{j}')
 """
 ss = 'hello' 'world'
 print(ss)
@@ -38,3 +47,9 @@ tel = list((99, 156, 12, 23))
 ozod = [quyon for quyon in 'Ozodbek']
 print(royxat1, ogabek, tel, ozod, sep = '\n')
 
+print(list(range(10)))
+print(list(range(2, 9)))
+print(list(range(1963, 2023)))
+print(list(range(1963, 2023, 2)))
+print(list(range(1963, 2023, -1)))
+print(list(range(1963, 2023, -2)))

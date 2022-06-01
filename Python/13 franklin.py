@@ -32,4 +32,25 @@ for a in 'Hello world!':
 
 
 
+print('\n15-Dars ')
+sum = 0
+for r in range(0, 10):
+    for y in range(0, 10):
+        z = f'{r}' + f'{y}'
+        sum = sum + int(z)
+        print(z, ' ', end = '')
+    print(r, 'aylanish', sum)
+
+fact = 0
+  
+for i in range(1, 10):
+    fact = fact + i
+      
+print ("1 dan 9 qo'shilgan sonlar : ",end="")
+print (fact)
+
+
+
+
+
 
